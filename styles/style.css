@@ -1,0 +1,131 @@
+body{
+   background-color:#ffeb79 ;
+   font-family: sans-serif;
+}
+header {
+    width: 100%;
+    height: 8vw;
+    background-color:#E7A200 ;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    position:fixed;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header img {
+    position: absolute;
+    margin-left: 2vw;
+    top: 1vw;
+    left: 1vw;
+    width: 15vw;
+    height: 6vw;
+}
+nav{
+    position: absolute;
+    top: 2vw;
+    left: 30vw;
+    width: 21vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav a{
+    margin-left: 2.5vw;
+    padding: 0.5vw 1vw;
+    border-radius:5px ;
+    font-size: 1.1vw;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav a span{
+    margin-left: 0.25vw;
+}
+nav a:hover{
+    background-color: #C76800;
+}
+nav a:active{
+    background-color: #C76800;
+}
+.inputInLeftAngle{
+    position: relative;
+    top: 3vw;
+    margin-left:2vw;
+    left: 65vw;
+    height: 2.8vw;
+    width: 19vw;
+    border-radius: 2vw;
+}
+.menu {
+
+    display: none; 
+    position: absolute;
+    top: 5vw;
+    left: 38vw;
+    background-color: #ffc131;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+    padding: 10px;
+    z-index: 1;
+}
+.menu-btn {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.publication{
+    object-fit: cover;
+    margin-top: 10vw;
+    margin-left: 20vw;
+    padding: 1vw;
+    background-color: #F0A140;
+    width: 60vw;
+    height: 15vw;
+    box-shadow: 2 10px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-radius: 1vw;
+    display: flex;
+
+}
+.publication img{
+    width: 17.5vw;
+    height: 12vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    border-radius: 1vw;
+}
+.publication h1{
+    text-decoration: none;
+    margin-left: 2vw;
+}
+.publication:hover{
+    transform: scale(1.025);
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }

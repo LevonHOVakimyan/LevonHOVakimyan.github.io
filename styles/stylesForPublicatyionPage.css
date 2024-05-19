@@ -1,0 +1,89 @@
+body {
+    background-color: #ffeb79;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 5vw;
+    background-color: #E7A200;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.534);
+    z-index: 1;
+}
+
+header img {
+    position: absolute;
+    margin-left: 40vw;
+    top: 1vw;
+    left: 1vw;
+    width: 15vw;
+    height: auto; /* Maintain aspect ratio */
+    z-index: 2;
+}
+
+.publicationInfo {
+
+    border-radius: 2vw 0vw 0vw 2vw;
+    width: 80vw;
+    padding: 3vw;
+    background: #F0A140;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 0;
+    height: 30vw;
+}
+.publicationInfo span{
+    font-size: 1.25vw;
+}
+.header {
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 1vw; /* Space below the header */
+}
+
+.headerCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the audio element */
+.information{
+    display: flex;
+    position: relative;
+    top:4vw;
+    margin-top: 8vw;
+    margin: 2vw;
+}
+.audioBlock{
+    width: 15vw;
+    height: 33vw;
+    background-color: #E7A200;
+    padding: 1.5vw;
+    border-radius: 0vw 4vw 4vw 0vw;
+    overflow-y: scroll;
+}
+audio {
+
+    margin: 0.5vw ; /* Center the audio player and add margin */
+    width: 12vw; /* Make the audio player responsive */
+    max-width: 30vw; /* Optional: limit the max width */
+    border-radius: 0vw;
+}
+
+.imgPosition{
+    display: flex;
+    justify-content: left;
+}
+.imgPosition{
+    width: 26vw;
+    height: 25vw;
+    margin: 1vw;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Հարցազրույցներ</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+
+<div>
+    <header>
+
+        <img src="Images/InterviewLogo.jpg" alt="LogoInleftAngle">
+        <nav>
+            
+            <a href="#"><span>Գլխաոր </span> <span> էջ</span></a>
+            <a href="#" class="menu-btn">Մասնակիցներ  <span>⇓</span></a>
+            <a href="#">Թեմաներ</a>
+        </nav>
+        <input class="inputInLeftAngle" type="search">
+        
+<!-- <button class="menu-btn"><div class="container" onclick="myFunction(this)">
+    <div class="bar1"> </div>
+    <div class="bar2"> </div>
+    <div class="bar3"> </div>
+  </div>
+</button> -->
+
+
+    <div class="menu">
+        <ul>
+            <li>Հովակիմյան Լևոն</li>
+            <li>Մելիքսեթյան Արես</li>
+            <li>Քոչարյան Արամ</li>
+            <li>Աղաջանյան Գոռ</li>
+            <li>Բարսեղյան Հայկ</li>
+        </ul>
+    </div>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const menu = document.querySelector('.menu');
+                function myFunction(x) {
+  x.classList.toggle("change");
+}
+        menuBtn.addEventListener('click', function() {
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        });
+
+
+</script> 
+</div>
+        </header>
+    <main class="publicationBlock">
+       <a href="Gadjener.html"><div class="publication">
+            <img src="Images/1_AJsQfmW0lCCdpB-bSS_LCA.jpg" id="gadgetImage" alt="gadgetImage">
+            <h1>Գաջեթների ազդեցությունը դեռահասների վրա</h1>
+        </div></a> 
+    </main>
+</body>
+</html>
